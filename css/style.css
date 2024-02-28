@@ -1,11 +1,13 @@
 @import url(style.css);
 
 .encabezado{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url("storage/img/placeYourImageHere0.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     /* background-image: url("storage/img/placeYourImageHere0.png"); */
 
 }
 
-li{
-    
-}
+
