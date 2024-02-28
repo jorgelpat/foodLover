@@ -1,16 +1,27 @@
 @import url(style.css);
 
+
+
 .encabezado{
-    /* background-color: black; */
+    background-color: black;
     width: 100vw;
+    color: #fff;
     /* background-image: url(); */
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
+    justify-content: center;    
     /* background-image: url("storage/img/placeYourImageHere0.png"); */
-
 }
+
+.encabezado ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado ul :first-child{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .lista1{
     display: flex;
@@ -20,4 +31,19 @@ button{
     height: 40px;
 }
 
+.ourfood{
+    background-color: black;
+}
 
+.ourfood div{
+    display: flex;
+    justify-content: center;
+}
+
+.ourfood img{
+    margin: 5px;
+}
+
+.enjoy{
+    
+}
