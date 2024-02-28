@@ -2,12 +2,22 @@
 
 .encabezado{
     /* background-color: black; */
-    background-image: url("storage/img/placeYourImageHere0.png");
+    width: 100vw;
+    /* background-image: url(); */
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
     /* background-image: url("storage/img/placeYourImageHere0.png"); */
 
+}
+
+.lista1{
+    display: flex;
+}
+
+button{
+    height: 40px;
 }
 
 
