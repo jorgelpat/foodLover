@@ -1,6 +1,11 @@
 @import url(style.css);
 
 
+.home{
+    /* background-image: url("../storage/img/placeYourImageHere0.png"); */
+    background-color: black;
+}
+
 
 
 .encabezado header{
@@ -36,10 +41,16 @@
     flex-direction: row;
 } */
 
+.aboqual{
+    background-color: #17171e;
+    color: #fff;
+}
+
 
 .lista1{
     background-image: url("storage/img/placeYourImageHere0");
     display: flex;
+    margin: 50px;
 }
 
 .lista1 div{
@@ -47,12 +58,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 30px;
+    color: #fff;
 }
 
 
 button{
     height: 40px;
     width: 60px;
+    background-color: #e58f00;
+    border-radius: 10px;
 }
 
 .ourfood{
