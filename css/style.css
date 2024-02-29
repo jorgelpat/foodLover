@@ -2,8 +2,11 @@
 
 
 .encabezado header{
+    width: 100vw;
+    margin: 10px;
     display: flex;
     flex-flow: row;
+    justify-content: space-around;
 }
 
 .encabezado{
@@ -17,19 +20,23 @@
 }
 
 .encabezado ul{
+    width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
 }
 
 
 
-.encabezado ul :first-child{
+/* .encabezado ul :first-child{
     display: flex;
     flex-direction: row;
-}
+} */
 
 
 .lista1{
+    background-image: url("storage/img/placeYourImageHere0");
     display: flex;
 }
 
