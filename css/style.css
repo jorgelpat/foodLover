@@ -1,6 +1,10 @@
 @import url(style.css);
 
 
+.encabezado header{
+    display: flex;
+    flex-flow: row;
+}
 
 .encabezado{
     background-color: black;
@@ -16,6 +20,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .encabezado ul :first-child{
     display: flex;
@@ -48,8 +54,29 @@ button{
     display: flex;
 }
 
-.lista2 
+.quality{
+    display: flex;
+}
+
+.primeraLinea{
+    display: flex;
+    flex-direction: column;
+}
+
+.primeraLinea img{
+    height: 500px;
+    width: 500px;
+}
+.segundaLinea{
+    display: flex;
+    flex-direction: column;
+}
+
+.segundaLinea img{
+    height: 500px;
+    width: 500px;
+}
+
+/* .lista2  */
 
 /* .enjoy{
-    
-} */
